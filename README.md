@@ -10,6 +10,32 @@ A RESTful API service for logging and managing hypothetical AI safety incidents,
 - Automatic timestamping of reported incidents
 - RESTful endpoints with JSON request/response handling
 
+## Folder Structure
+```
+    AI-Safety-Incidents-Logger/
+├── dist/ # Compiled JavaScript files
+│ └── index.js # Main compiled entry point
+├── node_modules/ # NPM dependencies
+├── src/
+│ ├── config/
+│ │ └── db.ts # Database configuration
+│ ├── controllers/
+│ │ └── incidentController.ts # Business logic
+│ ├── routes/
+│ │ └── incidentRoutes.ts # API routes
+│ ├── seed/
+│ │ └── seed.ts # Database seeding script
+│ ├── types/
+│ │ └── incident.types.ts # Type definitions
+│ └── index.ts # Main application entry
+├── .env # Environment variables
+├── .gitignore
+├── package-lock.json
+├── package.json # Project configuration
+├── README.md # This documentation
+└── tsconfig.json # TypeScript configuration
+```
+
 ## Technologies Used
 
 - **Language**: TypeScript

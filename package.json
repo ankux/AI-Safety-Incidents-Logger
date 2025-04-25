@@ -12,16 +12,17 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.1",
-    "@types/node": "^22.15.2",
     "nodemon": "^3.1.10",
+    "rimraf": "^6.0.1",
     "ts-node": "^10.9.2",
     "ts-node-dev": "^2.0.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.0.0",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",

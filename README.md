@@ -3,6 +3,9 @@
 
 A RESTful API service for logging and managing hypothetical AI safety incidents, built with Node.js, Express, and PostgreSQL.
 
+[![Repo](https://img.shields.io/badge/GitHub-View%20Repo-blue?logo=github)](https://github.com/ankux/AI-Safety-Incidents-Logger) 
+[![Website](https://img.shields.io/badge/Live%20API-Click%20Here-brightgreen?logo=vercel&style=for-the-badge)](https://ai-safety-incidents-logger.onrender.com/api/incidents)
+
 ## Features
 
 - Create, read, and delete AI safety incident reports

@@ -22,8 +22,12 @@ A RESTful API service for logging and managing hypothetical AI safety incidents,
 ├── src/
 │ ├── config/
 │ │ └── db.ts # Database configuration
+| | └── initDB.ts # Initialize DB
 │ ├── controllers/
 │ │ └── incidentController.ts # Business logic
+│ ├── middleware/
+│ │ └── errorHandler.ts # Handles errors
+│ │ └── notFound.ts # Handles undefined routes
 │ ├── routes/
 │ │ └── incidentRoutes.ts # API routes
 │ ├── seed/

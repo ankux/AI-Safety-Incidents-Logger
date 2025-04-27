@@ -87,8 +87,6 @@ A RESTful API service for logging and managing hypothetical AI safety incidents,
 
 The application will automatically create the required table on startup. To manually initialize the database:
 
-1. The table schema will be created automatically when the server starts via the `initDB()` function present in `index.ts/index.js` file
-2. Ensure `DB init successful` message is logged in the terminal. That means the database connection was successful and the table has been created on Neon DB.
 
 ## Seeding Sample Data
 

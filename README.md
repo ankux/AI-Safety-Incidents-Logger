@@ -85,7 +85,7 @@ A RESTful API service for logging and managing hypothetical AI safety incidents,
 
 ## Database Setup
 
-The application will automatically create the required table on startup. To manually initialize the database:
+The application will automatically create the required table on startup.
 
 
 ## Seeding Sample Data
